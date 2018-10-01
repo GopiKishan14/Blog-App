@@ -10,7 +10,7 @@
 		<% blogs.forEach(function(blog){ %>
 		<div class="item">
 			<div class="image">
-				<img src = "<%= blog.image%>" >
+				<img src = "<%= blog.image%>" alt="The image could not be loaded.">
 			</div>
 			<div class="content">
 				<a class="header" href="/blogs/<%= blog._id %>"> <%= blog.title%>.</a>
